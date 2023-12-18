@@ -180,7 +180,11 @@ img {
   height: 600px;
   flex-shrink: 0;
   padding: 188px 0;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/decorations/hero-bgr-people-office\ -\ bckgr-img.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/decorations/hero-bgr-people-office\ -\ bckgr-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -285,7 +289,36 @@ img {
 }
 .team-text {
 }
+.socials {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.socials-items {
+  width: 40px;
+  height: 40px;
+}
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 
+  background-color: #4d5ae5;
+  border-radius: 50%;
+
+  color: #f4f4fd;
+}
+.socials-icon {
+  fill: currentColor;
+}
+.socials-link:hover,
+.socials-link:focus {
+  background-color: #404bbf;
+}
 /* Portfolio Section */
 
 .portfolio {
