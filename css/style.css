@@ -348,7 +348,31 @@ img {
 .portf-img {
   display: block;
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
 
+  width: 100%;
+  height: 100%;
+
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px 32px;
+
+  background: #4d5ae5;
+}
+.portf-item-wraper {
+  position: relative;
+
+  color: #f4f4fd;
+  font-family: Roboto;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 .portf-list-item {
   border-bottom: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
