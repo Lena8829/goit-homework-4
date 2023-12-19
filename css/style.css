@@ -197,7 +197,7 @@ img {
 
 /* Hero Section */
 
-.section {
+.hero {
   background-color: #2e2f42;
   height: 600px;
   flex-shrink: 0;
@@ -211,8 +211,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-  max-width: 1440px;
+  object-fit: cover;
 }
 .hero-container {
   display: flex;
