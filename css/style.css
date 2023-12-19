@@ -146,7 +146,7 @@ img {
 .nav-link:focus {
   color: #404bbf;
 }
-.nav-link.active:hover::after {
+.nav-link.active::after {
   content: '';
   display: block;
   width: 100%;
