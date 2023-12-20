@@ -214,6 +214,8 @@ img {
   object-fit: cover;
 
   max-width: 1440px;
+
+  margin: 0 auto;
 }
 .hero-container {
   display: flex;
@@ -453,13 +455,12 @@ img {
 
   display: flex;
 
-  justify-content: center;
   align-items: center;
 
   padding-bottom: 100px;
   padding-top: 100px;
 }
-.footer-container {
+.footer-container .container {
   display: flex;
   align-items: baseline;
 }
